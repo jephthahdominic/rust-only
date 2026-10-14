@@ -1,0 +1,933 @@
+{
+  "source": "Figma: Rust Only_Team → Website Design Final (https://www.figma.com/design/5oVNdoAzb0CsY9BaRHdtBD/Rust-Only_Team)",
+  "exported": "2026-10-13",
+  "note": "Original uploaded image fills (uncropped, no text overlays). Crop with CSS object-fit/object-position, not by editing files.",
+  "assets": [
+    {
+      "file": "images/artworks/feast-at-canaan-onobrakpeya.jpg",
+      "title": "Feast at Canaan",
+      "artist": "Bruce Onobrakpeya",
+      "width": 1000,
+      "height": 663,
+      "kb": 237,
+      "figma_usages": [
+        "03 Curation · RESOLVED › cell 3",
+        "03 Curation · RESOLVED › feast-at-canaan-onobrakpeya.jpg",
+        "03 Curation · RESOLVED › tile 6",
+        "Chapter 3 › plate",
+        "Chapter details Page › Rectangle 23",
+        "Home page › tile 6",
+        "Home › feast-at-canaan-onobrakpeya.jpg",
+        "Volume › work",
+        "Volumes › work"
+      ]
+    },
+    {
+      "file": "images/objects/object-001.png",
+      "title": "The Gathering · Object 001 (vase)",
+      "artist": "Rust Only",
+      "width": 750,
+      "height": 1000,
+      "kb": 358,
+      "figma_usages": [
+        "02 Three cards · ARRIVED › win",
+        "03 Curation · RESOLVED › object-001-mock.png",
+        "03 Curation · RESOLVED › tile 7",
+        "Home page › tile 7",
+        "Home › object-001-mock.png"
+      ]
+    },
+    {
+      "file": "images/artworks/the-drummers-godspower.jpg",
+      "title": "The Drummers",
+      "artist": "Godspower",
+      "width": 1000,
+      "height": 975,
+      "kb": 334,
+      "figma_usages": [
+        "03 Curation · RESOLVED › the-drummers-godspower.jpg",
+        "03 Curation · RESOLVED › tile 8",
+        "Home page › tile 8",
+        "Home › the-drummers-godspower.jpg",
+        "Volume › work",
+        "Volumes › work"
+      ]
+    },
+    {
+      "file": "images/artworks/beautiful-faces-marshal.jpg",
+      "title": "Beautiful Faces",
+      "artist": "Marshal",
+      "width": 1000,
+      "height": 655,
+      "kb": 131,
+      "figma_usages": [
+        "03 Curation · RESOLVED › beautiful-faces-marshal.jpg",
+        "03 Curation · RESOLVED › tile 9",
+        "Home page › tile 9",
+        "Home › beautiful-faces-marshal.jpg",
+        "Volume › work",
+        "Volumes › work"
+      ]
+    },
+    {
+      "file": "images/artworks/the-keeper-of-tradition-buraimoh.jpg",
+      "title": "The Keeper of Tradition, 2012",
+      "artist": "Jimoh Buraimoh",
+      "width": 723,
+      "height": 1000,
+      "kb": 268,
+      "figma_usages": [
+        "01 The room › the-keeper-of-tradition-buraimoh.jpg",
+        "02 About the artist › the-keeper-of-tradition-buraimoh.jpg",
+        "03 The plate and the row back out › faces-of-the-ancestors-buraimoh.jpg",
+        "Chapter details Page › Rectangle 24",
+        "Details · Art · Mobile 390 › faces-of-the-ancestors-buraimoh.jpg",
+        "Details · Work (from a Chapter) › the-keeper-of-tradition-buraimoh",
+        "Home page › The Keeper of Tradition",
+        "Home › the-keeper-of-tradition-buraimoh.jpg"
+      ]
+    },
+    {
+      "file": "images/artworks/the-gathering-2-ogundele.jpg",
+      "title": "The Gathering 2",
+      "artist": "Rufus Ogundele",
+      "width": 838,
+      "height": 1000,
+      "kb": 206,
+      "figma_usages": [
+        "03 Curation · RESOLVED › the-gathering-2-ogundele.jpg",
+        "03 Curation · RESOLVED › tile 3",
+        "03 Curation · RESOLVED › win",
+        "Chapter 2 › plate",
+        "Chapter details Page › Frame 19",
+        "Curation frame › win",
+        "Home page › tile 3",
+        "Volume › work",
+        "Volumes › work"
+      ]
+    },
+    {
+      "file": "images/artworks/faces-of-the-ancestors-buraimoh.jpg",
+      "title": "Faces of the Ancestors, 1994",
+      "artist": "Jimoh Buraimoh",
+      "width": 1000,
+      "height": 889,
+      "kb": 331,
+      "figma_usages": [
+        "01 The room › faces-of-the-ancestors-buraimoh.jpg",
+        "02 About the artist › faces-of-the-ancestors-buraimoh.jpg",
+        "03 Curation · RESOLVED › cell 1",
+        "03 Curation · RESOLVED › faces-of-the-ancestors-buraimoh.jpg",
+        "03 Curation · RESOLVED › tile 1",
+        "03 The plate and the row back out › faces-of-the-ancestors-buraimoh.jpg",
+        "Details · Art · Mobile 390 › faces-of-the-ancestors-buraimoh.jpg",
+        "Home page › tile 1",
+        "Volume › faces-of-the-ancestors-buraimoh.jpg",
+        "Volume › work",
+        "Volumes › win",
+        "Volumes › work",
+        "chapter 1 › plate"
+      ]
+    },
+    {
+      "file": "images/artworks/the-group-onuoha.jpg",
+      "title": "The Group",
+      "artist": "Onuoha",
+      "width": 964,
+      "height": 1000,
+      "kb": 241,
+      "figma_usages": [
+        "03 Curation · RESOLVED › cell 2",
+        "03 Curation · RESOLVED › the-group-onuoha.jpg",
+        "Volume › work",
+        "Volumes › work"
+      ]
+    },
+    {
+      "file": "images/artworks/vogue-and-style-i-godspower.jpg",
+      "title": "Vogue and Style I",
+      "artist": "Godspower",
+      "width": 1000,
+      "height": 921,
+      "kb": 249,
+      "figma_usages": [
+        "03 Curation · RESOLVED › cell 4",
+        "03 Curation · RESOLVED › vogue-and-style-i-godspower.jpg",
+        "Chapter details Page › Rectangle 25",
+        "Chpter 4 › plate",
+        "Volume › work",
+        "Volumes › work"
+      ]
+    },
+    {
+      "file": "images/spaces/residential-portrait.jpg",
+      "title": "Residential (room with empty frame, portrait)",
+      "artist": "Rust Spaces",
+      "width": 1000,
+      "height": 558,
+      "kb": 108,
+      "figma_usages": [
+        "03 Curation · RESOLVED › space · Residential",
+        "03 Curation · RESOLVED › space-residential-portrait.jpeg",
+        "Spaces › win"
+      ]
+    },
+    {
+      "file": "images/artworks/patterns-of-kin-wewe.jpg",
+      "title": "Patterns of Kin",
+      "artist": "Wewe",
+      "width": 722,
+      "height": 1000,
+      "kb": 322,
+      "figma_usages": [
+        "03 Curation · RESOLVED › Patterns of Kin, hung",
+        "03 Curation · RESOLVED › patterns-of-kin-wewe.jpg"
+      ]
+    },
+    {
+      "file": "images/artworks/the-procession-onuoha.jpg",
+      "title": "The Procession",
+      "artist": "Onuoha",
+      "width": 1000,
+      "height": 646,
+      "kb": 247,
+      "figma_usages": [
+        "03 Curation · RESOLVED › the-procession-onuoha.jpg",
+        "03 Curation · RESOLVED › tile 5",
+        "Home page › tile 5",
+        "Home › the-procession-onuoha.jpg",
+        "Volume › work",
+        "Volumes › work"
+      ]
+    },
+    {
+      "file": "images/rooms/room-panelled.jpg",
+      "title": "Wood-panelled room with hung artwork (home hero / loader window)",
+      "artist": null,
+      "width": 1000,
+      "height": 457,
+      "kb": 70,
+      "figma_usages": [
+        "02 Field · AT REST › room-panelled.jpg",
+        "02 Field · TRAVELLING › room-panelled.jpg",
+        "Desktop 1440 · B separating › room-panelled.jpg",
+        "Desktop 1440 · C hold › room-panelled.jpg",
+        "Desktop 1440 · D opening › room-panelled.jpg",
+        "Home page › room-panelled",
+        "Home › room-panelled.jpg",
+        "Mobile 390 · B separating › room-panelled.jpg",
+        "Mobile 390 · C hold › room-panelled.jpg",
+        "Mobile 390 · D opening › room-panelled.jpg",
+        "Mobile Nav › room-panelled.jpg",
+        "Spaces › win"
+      ]
+    },
+    {
+      "file": "images/artworks/dance-of-the-greenshadows-onobrakpeya-2008.jpg",
+      "title": "Dance of the Greenshadows, 2008",
+      "artist": "Bruce Onobrakpeya",
+      "width": 750,
+      "height": 1000,
+      "kb": 357,
+      "figma_usages": [
+        "02 Field · AT REST › dance-of-the-greenshadows-onobrakpeya-2008.jpg",
+        "02 Three cards · ARRIVED › win"
+      ]
+    },
+    {
+      "file": "images/artworks/harmony-of-souls-wewe.jpg",
+      "title": "Harmony of Souls",
+      "artist": "Wewe",
+      "width": 1201,
+      "height": 997,
+      "kb": 358,
+      "figma_usages": [
+        "02 Field · AT REST › harmony-of-souls-wewe.jpg",
+        "02 Field · TRAVELLING › harmony-of-souls-wewe.jpg"
+      ]
+    },
+    {
+      "file": "images/spaces/residential.jpg",
+      "title": "Residential (room with empty frame, landscape)",
+      "artist": "Rust Spaces",
+      "width": 1000,
+      "height": 558,
+      "kb": 113,
+      "figma_usages": [
+        "02 Field · TRAVELLING › space-residential.jpg",
+        "02 Three cards · ARRIVED › win",
+        "Spaces › win"
+      ]
+    },
+    {
+      "file": "images/artworks/vogue-and-style-ii-godspower.jpg",
+      "title": "Vogue and Style II",
+      "artist": "Godspower",
+      "width": 1000,
+      "height": 780,
+      "kb": 221,
+      "figma_usages": [
+        "02 Field · TRAVELLING › vogue-and-style-ii-godspower.jpg"
+      ]
+    },
+    {
+      "file": "images/rooms/volume-hero.jpg",
+      "title": "Volume page hero room (three works hung)",
+      "artist": null,
+      "width": 1000,
+      "height": 558,
+      "kb": 122,
+      "figma_usages": [
+        "Volume › volume-hero-hung.jpg",
+        "Volumes › volume-hero-hung"
+      ]
+    },
+    {
+      "file": "images/objects/ancestral-vase-tall.jpg",
+      "title": "Ancestral vase (tall) · Acrylic",
+      "artist": null,
+      "width": 768,
+      "height": 1376,
+      "kb": 713,
+      "figma_usages": [
+        "Volume › vo__plate",
+        "Volumes › Rectangle 24"
+      ]
+    },
+    {
+      "file": "images/objects/ancestral-plate.jpg",
+      "title": "Ancestral plate · Acrylic",
+      "artist": null,
+      "width": 1376,
+      "height": 768,
+      "kb": 653,
+      "figma_usages": [
+        "Volume › vo__plate",
+        "Volumes › Rectangle 23"
+      ]
+    },
+    {
+      "file": "images/spaces/sterling-house.jpg",
+      "title": "Sterling House · Private Residence · Lagos · 2026 (also Spaces hero)",
+      "artist": "Rust Spaces",
+      "width": 1100,
+      "height": 614,
+      "kb": 156,
+      "figma_usages": [
+        "Space › space-hero-hung.jpg",
+        "Spaces › space-hero-hung",
+        "Spaces › win"
+      ]
+    },
+    {
+      "file": "images/spaces/osborne-studio.jpg",
+      "title": "Osborne Studio · Commercial · Lagos · 2026",
+      "artist": "Rust Spaces",
+      "width": 1100,
+      "height": 614,
+      "kb": 156,
+      "figma_usages": [
+        "Room sheet › space-commercial.jpg",
+        "Space › space-hero-hung.jpg",
+        "Spaces › win"
+      ]
+    },
+    {
+      "file": "images/brand/rust-only-mark.png",
+      "title": "Rust Only loop mark (logo, wax seal)",
+      "artist": null,
+      "width": 1000,
+      "height": 683,
+      "kb": 98,
+      "figma_usages": [
+        "Home › rust-only-mark.png",
+        "Manifesto › mark, pressed",
+        "Manifesto › rust-only-mark.png",
+        "Mobile Nav › rust-only-mark.png",
+        "Space › rust-only-mark.png",
+        "Volume › rust-only-mark.png"
+      ]
+    },
+    {
+      "file": "images/rooms/space-frame-23x30.jpg",
+      "title": "Living room with empty 23x30 frame (for in-situ \"hung\" mockups)",
+      "artist": null,
+      "width": 1376,
+      "height": 768,
+      "kb": 776,
+      "figma_usages": [
+        "01 The room › space-frame-23x30.jpeg",
+        "02 About the artist › space-frame-23x30.jpeg",
+        "Details · Art · Mobile 390 › space-frame-23x30.jpeg"
+      ]
+    },
+    {
+      "file": "images/artworks/the-duo-buraimoh.jpg",
+      "title": "The Duo",
+      "artist": "Jimoh Buraimoh",
+      "width": 832,
+      "height": 1000,
+      "kb": 260,
+      "figma_usages": [
+        "01 The room › the-duo-buraimoh.jpg · hung",
+        "01 The room › the-duo-buraimoh.jpg · plate",
+        "02 About the artist › the-duo-buraimoh.jpg · hung",
+        "02 About the artist › the-duo-buraimoh.jpg · plate",
+        "03 The plate and the row back out › the-duo-buraimoh.jpg · hung",
+        "03 The plate and the row back out › the-duo-buraimoh.jpg · plate",
+        "Details · Art · Mobile 390 › the-duo-buraimoh.jpg · hung",
+        "Details · Art · Mobile 390 › the-duo-buraimoh.jpg · plate",
+        "Volume › work",
+        "Volumes › work"
+      ]
+    },
+    {
+      "file": "images/artworks/suffering-masses-onobrakpeya.jpg",
+      "title": "Suffering Masses",
+      "artist": "Bruce Onobrakpeya",
+      "width": 1107,
+      "height": 1535,
+      "kb": 767,
+      "figma_usages": [
+        "01 The room › suffering-masses-onobrakpeya.jpg",
+        "02 About the artist › suffering-masses-onobrakpeya.jpg",
+        "03 The plate and the row back out › suffering-masses-onobrakpeya.jpg",
+        "Details · Art · Mobile 390 › suffering-masses-onobrakpeya.jpg",
+        "Details · Work (from a Chapter) › suffering-masses-onobrakpeya"
+      ]
+    },
+    {
+      "file": "images/artworks/guardian-of-sacred-circle-ogundele.jpg",
+      "title": "Guardian of the Sacred Circle",
+      "artist": "Rufus Ogundele",
+      "width": 1000,
+      "height": 854,
+      "kb": 231,
+      "figma_usages": [
+        "01 The room › guardian-of-sacred-circle-ogundele.jpg",
+        "02 About the artist › guardian-of-sacred-circle-ogundele.jpg",
+        "03 Curation · RESOLVED › tile 2",
+        "Details · Work (from a Chapter) › guardian-of-sacred-circle-ogundele",
+        "Home page › tile 2",
+        "Volume › work",
+        "Volumes › work"
+      ]
+    },
+    {
+      "file": "images/artworks/where-spirit-meets-buraimoh.jpg",
+      "title": "Where Spirit Meets",
+      "artist": "Jimoh Buraimoh",
+      "width": 860,
+      "height": 1000,
+      "kb": 362,
+      "figma_usages": [
+        "01 The room › where-spirit-meets-buraimoh.jpg",
+        "02 About the artist › where-spirit-meets-buraimoh.jpg",
+        "Details · Work (from a Chapter) › where-spirit-meets-buraimoh",
+        "Volume › work",
+        "Volumes › work"
+      ]
+    },
+    {
+      "file": "images/artworks/marquee-tile-04.jpg",
+      "title": "Untitled (marquee tile 4)",
+      "artist": null,
+      "width": 1000,
+      "height": 811,
+      "kb": 180,
+      "figma_usages": [
+        "03 Curation · RESOLVED › tile 4",
+        "Home page › tile 4",
+        "Marquee tile › work",
+        "Volume › work",
+        "Volumes › work"
+      ]
+    },
+    {
+      "file": "images/objects/ancestral-vase-round.jpg",
+      "title": "Ancestral vase (round) · Acrylic",
+      "artist": null,
+      "width": 1200,
+      "height": 896,
+      "kb": 612,
+      "figma_usages": [
+        "Volumes › Rectangle 24"
+      ]
+    },
+    {
+      "file": "images/objects/ancestral-box.jpg",
+      "title": "Ancestral box · Acrylic",
+      "artist": null,
+      "width": 1200,
+      "height": 896,
+      "kb": 665,
+      "figma_usages": [
+        "Volumes › Rectangle 23"
+      ]
+    },
+    {
+      "file": "images/rooms/work-detail-in-situ.png",
+      "title": "Work detail hero: artwork hung in room (verify: may contain baked-in text)",
+      "artist": null,
+      "width": 1906,
+      "height": 1087,
+      "kb": 2162,
+      "figma_usages": [
+        "Details · Work (from a Chapter) › image 1"
+      ]
+    },
+    {
+      "file": "images/artworks/palmwine-woman-onobrakpeya.jpg",
+      "title": "Palmwine Woman",
+      "artist": "Bruce Onobrakpeya",
+      "width": 1000,
+      "height": 760,
+      "kb": 217,
+      "figma_usages": [
+        "Details · Work (from a Chapter) › palmwine-woman-onobrakpeya",
+        "Volume › work",
+        "Volumes › work"
+      ]
+    },
+    {
+      "file": "images/artworks/volume-mosaic-01.jpg",
+      "title": "Untitled (Volume I mosaic band)",
+      "artist": null,
+      "width": 771,
+      "height": 1000,
+      "kb": 318,
+      "figma_usages": [
+        "Volume › work",
+        "Volumes › work"
+      ]
+    },
+    {
+      "file": "images/artworks/volume-mosaic-02.jpg",
+      "title": "Untitled (Volume I mosaic band)",
+      "artist": null,
+      "width": 1000,
+      "height": 685,
+      "kb": 215,
+      "figma_usages": [
+        "Volume › work",
+        "Volumes › work"
+      ]
+    },
+    {
+      "file": "images/artworks/volume-mosaic-03.jpg",
+      "title": "Untitled (Volume I mosaic band, three faces)",
+      "artist": null,
+      "width": 1000,
+      "height": 738,
+      "kb": 204,
+      "figma_usages": [
+        "Volume › work",
+        "Volumes › work"
+      ]
+    }
+  ],
+  "slots_by_figma_layer": {
+    "01 The room › faces-of-the-ancestors-buraimoh.jpg": [
+      "images/artworks/faces-of-the-ancestors-buraimoh.jpg"
+    ],
+    "01 The room › guardian-of-sacred-circle-ogundele.jpg": [
+      "images/artworks/guardian-of-sacred-circle-ogundele.jpg"
+    ],
+    "01 The room › space-frame-23x30.jpeg": [
+      "images/rooms/space-frame-23x30.jpg"
+    ],
+    "01 The room › suffering-masses-onobrakpeya.jpg": [
+      "images/artworks/suffering-masses-onobrakpeya.jpg"
+    ],
+    "01 The room › the-duo-buraimoh.jpg · hung": [
+      "images/artworks/the-duo-buraimoh.jpg"
+    ],
+    "01 The room › the-duo-buraimoh.jpg · plate": [
+      "images/artworks/the-duo-buraimoh.jpg"
+    ],
+    "01 The room › the-keeper-of-tradition-buraimoh.jpg": [
+      "images/artworks/the-keeper-of-tradition-buraimoh.jpg"
+    ],
+    "01 The room › where-spirit-meets-buraimoh.jpg": [
+      "images/artworks/where-spirit-meets-buraimoh.jpg"
+    ],
+    "02 About the artist › faces-of-the-ancestors-buraimoh.jpg": [
+      "images/artworks/faces-of-the-ancestors-buraimoh.jpg"
+    ],
+    "02 About the artist › guardian-of-sacred-circle-ogundele.jpg": [
+      "images/artworks/guardian-of-sacred-circle-ogundele.jpg"
+    ],
+    "02 About the artist › space-frame-23x30.jpeg": [
+      "images/rooms/space-frame-23x30.jpg"
+    ],
+    "02 About the artist › suffering-masses-onobrakpeya.jpg": [
+      "images/artworks/suffering-masses-onobrakpeya.jpg"
+    ],
+    "02 About the artist › the-duo-buraimoh.jpg · hung": [
+      "images/artworks/the-duo-buraimoh.jpg"
+    ],
+    "02 About the artist › the-duo-buraimoh.jpg · plate": [
+      "images/artworks/the-duo-buraimoh.jpg"
+    ],
+    "02 About the artist › the-keeper-of-tradition-buraimoh.jpg": [
+      "images/artworks/the-keeper-of-tradition-buraimoh.jpg"
+    ],
+    "02 About the artist › where-spirit-meets-buraimoh.jpg": [
+      "images/artworks/where-spirit-meets-buraimoh.jpg"
+    ],
+    "02 Field · AT REST › dance-of-the-greenshadows-onobrakpeya-2008.jpg": [
+      "images/artworks/dance-of-the-greenshadows-onobrakpeya-2008.jpg"
+    ],
+    "02 Field · AT REST › harmony-of-souls-wewe.jpg": [
+      "images/artworks/harmony-of-souls-wewe.jpg"
+    ],
+    "02 Field · AT REST › room-panelled.jpg": [
+      "images/rooms/room-panelled.jpg"
+    ],
+    "02 Field · TRAVELLING › harmony-of-souls-wewe.jpg": [
+      "images/artworks/harmony-of-souls-wewe.jpg"
+    ],
+    "02 Field · TRAVELLING › room-panelled.jpg": [
+      "images/rooms/room-panelled.jpg"
+    ],
+    "02 Field · TRAVELLING › space-residential.jpg": [
+      "images/spaces/residential.jpg"
+    ],
+    "02 Field · TRAVELLING › vogue-and-style-ii-godspower.jpg": [
+      "images/artworks/vogue-and-style-ii-godspower.jpg"
+    ],
+    "02 Three cards · ARRIVED › win": [
+      "images/objects/object-001.png",
+      "images/artworks/dance-of-the-greenshadows-onobrakpeya-2008.jpg",
+      "images/spaces/residential.jpg"
+    ],
+    "03 Curation · RESOLVED › Patterns of Kin, hung": [
+      "images/artworks/patterns-of-kin-wewe.jpg"
+    ],
+    "03 Curation · RESOLVED › beautiful-faces-marshal.jpg": [
+      "images/artworks/beautiful-faces-marshal.jpg"
+    ],
+    "03 Curation · RESOLVED › cell 1": [
+      "images/artworks/faces-of-the-ancestors-buraimoh.jpg"
+    ],
+    "03 Curation · RESOLVED › cell 2": [
+      "images/artworks/the-group-onuoha.jpg"
+    ],
+    "03 Curation · RESOLVED › cell 3": [
+      "images/artworks/feast-at-canaan-onobrakpeya.jpg"
+    ],
+    "03 Curation · RESOLVED › cell 4": [
+      "images/artworks/vogue-and-style-i-godspower.jpg"
+    ],
+    "03 Curation · RESOLVED › faces-of-the-ancestors-buraimoh.jpg": [
+      "images/artworks/faces-of-the-ancestors-buraimoh.jpg"
+    ],
+    "03 Curation · RESOLVED › feast-at-canaan-onobrakpeya.jpg": [
+      "images/artworks/feast-at-canaan-onobrakpeya.jpg"
+    ],
+    "03 Curation · RESOLVED › object-001-mock.png": [
+      "images/objects/object-001.png"
+    ],
+    "03 Curation · RESOLVED › patterns-of-kin-wewe.jpg": [
+      "images/artworks/patterns-of-kin-wewe.jpg"
+    ],
+    "03 Curation · RESOLVED › space · Residential": [
+      "images/spaces/residential-portrait.jpg"
+    ],
+    "03 Curation · RESOLVED › space-residential-portrait.jpeg": [
+      "images/spaces/residential-portrait.jpg"
+    ],
+    "03 Curation · RESOLVED › the-drummers-godspower.jpg": [
+      "images/artworks/the-drummers-godspower.jpg"
+    ],
+    "03 Curation · RESOLVED › the-gathering-2-ogundele.jpg": [
+      "images/artworks/the-gathering-2-ogundele.jpg"
+    ],
+    "03 Curation · RESOLVED › the-group-onuoha.jpg": [
+      "images/artworks/the-group-onuoha.jpg"
+    ],
+    "03 Curation · RESOLVED › the-procession-onuoha.jpg": [
+      "images/artworks/the-procession-onuoha.jpg"
+    ],
+    "03 Curation · RESOLVED › tile 1": [
+      "images/artworks/faces-of-the-ancestors-buraimoh.jpg"
+    ],
+    "03 Curation · RESOLVED › tile 2": [
+      "images/artworks/guardian-of-sacred-circle-ogundele.jpg"
+    ],
+    "03 Curation · RESOLVED › tile 3": [
+      "images/artworks/the-gathering-2-ogundele.jpg"
+    ],
+    "03 Curation · RESOLVED › tile 4": [
+      "images/artworks/marquee-tile-04.jpg"
+    ],
+    "03 Curation · RESOLVED › tile 5": [
+      "images/artworks/the-procession-onuoha.jpg"
+    ],
+    "03 Curation · RESOLVED › tile 6": [
+      "images/artworks/feast-at-canaan-onobrakpeya.jpg"
+    ],
+    "03 Curation · RESOLVED › tile 7": [
+      "images/objects/object-001.png"
+    ],
+    "03 Curation · RESOLVED › tile 8": [
+      "images/artworks/the-drummers-godspower.jpg"
+    ],
+    "03 Curation · RESOLVED › tile 9": [
+      "images/artworks/beautiful-faces-marshal.jpg"
+    ],
+    "03 Curation · RESOLVED › vogue-and-style-i-godspower.jpg": [
+      "images/artworks/vogue-and-style-i-godspower.jpg"
+    ],
+    "03 Curation · RESOLVED › win": [
+      "images/artworks/the-gathering-2-ogundele.jpg"
+    ],
+    "03 The plate and the row back out › faces-of-the-ancestors-buraimoh.jpg": [
+      "images/artworks/the-keeper-of-tradition-buraimoh.jpg",
+      "images/artworks/faces-of-the-ancestors-buraimoh.jpg"
+    ],
+    "03 The plate and the row back out › suffering-masses-onobrakpeya.jpg": [
+      "images/artworks/suffering-masses-onobrakpeya.jpg"
+    ],
+    "03 The plate and the row back out › the-duo-buraimoh.jpg · hung": [
+      "images/artworks/the-duo-buraimoh.jpg"
+    ],
+    "03 The plate and the row back out › the-duo-buraimoh.jpg · plate": [
+      "images/artworks/the-duo-buraimoh.jpg"
+    ],
+    "Chapter 2 › plate": [
+      "images/artworks/the-gathering-2-ogundele.jpg"
+    ],
+    "Chapter 3 › plate": [
+      "images/artworks/feast-at-canaan-onobrakpeya.jpg"
+    ],
+    "Chapter details Page › Frame 19": [
+      "images/artworks/the-gathering-2-ogundele.jpg"
+    ],
+    "Chapter details Page › Rectangle 23": [
+      "images/artworks/feast-at-canaan-onobrakpeya.jpg"
+    ],
+    "Chapter details Page › Rectangle 24": [
+      "images/artworks/the-keeper-of-tradition-buraimoh.jpg"
+    ],
+    "Chapter details Page › Rectangle 25": [
+      "images/artworks/vogue-and-style-i-godspower.jpg"
+    ],
+    "Chpter 4 › plate": [
+      "images/artworks/vogue-and-style-i-godspower.jpg"
+    ],
+    "Curation frame › win": [
+      "images/artworks/the-gathering-2-ogundele.jpg"
+    ],
+    "Desktop 1440 · B separating › room-panelled.jpg": [
+      "images/rooms/room-panelled.jpg"
+    ],
+    "Desktop 1440 · C hold › room-panelled.jpg": [
+      "images/rooms/room-panelled.jpg"
+    ],
+    "Desktop 1440 · D opening › room-panelled.jpg": [
+      "images/rooms/room-panelled.jpg"
+    ],
+    "Details · Art · Mobile 390 › faces-of-the-ancestors-buraimoh.jpg": [
+      "images/artworks/the-keeper-of-tradition-buraimoh.jpg",
+      "images/artworks/faces-of-the-ancestors-buraimoh.jpg"
+    ],
+    "Details · Art · Mobile 390 › space-frame-23x30.jpeg": [
+      "images/rooms/space-frame-23x30.jpg"
+    ],
+    "Details · Art · Mobile 390 › suffering-masses-onobrakpeya.jpg": [
+      "images/artworks/suffering-masses-onobrakpeya.jpg"
+    ],
+    "Details · Art · Mobile 390 › the-duo-buraimoh.jpg · hung": [
+      "images/artworks/the-duo-buraimoh.jpg"
+    ],
+    "Details · Art · Mobile 390 › the-duo-buraimoh.jpg · plate": [
+      "images/artworks/the-duo-buraimoh.jpg"
+    ],
+    "Details · Work (from a Chapter) › guardian-of-sacred-circle-ogundele": [
+      "images/artworks/guardian-of-sacred-circle-ogundele.jpg"
+    ],
+    "Details · Work (from a Chapter) › image 1": [
+      "images/rooms/work-detail-in-situ.png"
+    ],
+    "Details · Work (from a Chapter) › palmwine-woman-onobrakpeya": [
+      "images/artworks/palmwine-woman-onobrakpeya.jpg"
+    ],
+    "Details · Work (from a Chapter) › suffering-masses-onobrakpeya": [
+      "images/artworks/suffering-masses-onobrakpeya.jpg"
+    ],
+    "Details · Work (from a Chapter) › the-keeper-of-tradition-buraimoh": [
+      "images/artworks/the-keeper-of-tradition-buraimoh.jpg"
+    ],
+    "Details · Work (from a Chapter) › where-spirit-meets-buraimoh": [
+      "images/artworks/where-spirit-meets-buraimoh.jpg"
+    ],
+    "Home page › The Keeper of Tradition": [
+      "images/artworks/the-keeper-of-tradition-buraimoh.jpg"
+    ],
+    "Home page › room-panelled": [
+      "images/rooms/room-panelled.jpg"
+    ],
+    "Home page › tile 1": [
+      "images/artworks/faces-of-the-ancestors-buraimoh.jpg"
+    ],
+    "Home page › tile 2": [
+      "images/artworks/guardian-of-sacred-circle-ogundele.jpg"
+    ],
+    "Home page › tile 3": [
+      "images/artworks/the-gathering-2-ogundele.jpg"
+    ],
+    "Home page › tile 4": [
+      "images/artworks/marquee-tile-04.jpg"
+    ],
+    "Home page › tile 5": [
+      "images/artworks/the-procession-onuoha.jpg"
+    ],
+    "Home page › tile 6": [
+      "images/artworks/feast-at-canaan-onobrakpeya.jpg"
+    ],
+    "Home page › tile 7": [
+      "images/objects/object-001.png"
+    ],
+    "Home page › tile 8": [
+      "images/artworks/the-drummers-godspower.jpg"
+    ],
+    "Home page › tile 9": [
+      "images/artworks/beautiful-faces-marshal.jpg"
+    ],
+    "Home › beautiful-faces-marshal.jpg": [
+      "images/artworks/beautiful-faces-marshal.jpg"
+    ],
+    "Home › feast-at-canaan-onobrakpeya.jpg": [
+      "images/artworks/feast-at-canaan-onobrakpeya.jpg"
+    ],
+    "Home › object-001-mock.png": [
+      "images/objects/object-001.png"
+    ],
+    "Home › room-panelled.jpg": [
+      "images/rooms/room-panelled.jpg"
+    ],
+    "Home › rust-only-mark.png": [
+      "images/brand/rust-only-mark.png"
+    ],
+    "Home › the-drummers-godspower.jpg": [
+      "images/artworks/the-drummers-godspower.jpg"
+    ],
+    "Home › the-keeper-of-tradition-buraimoh.jpg": [
+      "images/artworks/the-keeper-of-tradition-buraimoh.jpg"
+    ],
+    "Home › the-procession-onuoha.jpg": [
+      "images/artworks/the-procession-onuoha.jpg"
+    ],
+    "Manifesto › mark, pressed": [
+      "images/brand/rust-only-mark.png"
+    ],
+    "Manifesto › rust-only-mark.png": [
+      "images/brand/rust-only-mark.png"
+    ],
+    "Marquee tile › work": [
+      "images/artworks/marquee-tile-04.jpg"
+    ],
+    "Mobile 390 · B separating › room-panelled.jpg": [
+      "images/rooms/room-panelled.jpg"
+    ],
+    "Mobile 390 · C hold › room-panelled.jpg": [
+      "images/rooms/room-panelled.jpg"
+    ],
+    "Mobile 390 · D opening › room-panelled.jpg": [
+      "images/rooms/room-panelled.jpg"
+    ],
+    "Mobile Nav › room-panelled.jpg": [
+      "images/rooms/room-panelled.jpg"
+    ],
+    "Mobile Nav › rust-only-mark.png": [
+      "images/brand/rust-only-mark.png"
+    ],
+    "Room sheet › space-commercial.jpg": [
+      "images/spaces/osborne-studio.jpg"
+    ],
+    "Space › rust-only-mark.png": [
+      "images/brand/rust-only-mark.png"
+    ],
+    "Space › space-hero-hung.jpg": [
+      "images/spaces/sterling-house.jpg",
+      "images/spaces/osborne-studio.jpg"
+    ],
+    "Spaces › space-hero-hung": [
+      "images/spaces/sterling-house.jpg"
+    ],
+    "Spaces › win": [
+      "images/spaces/residential-portrait.jpg",
+      "images/rooms/room-panelled.jpg",
+      "images/spaces/residential.jpg",
+      "images/spaces/sterling-house.jpg",
+      "images/spaces/osborne-studio.jpg"
+    ],
+    "Volume › faces-of-the-ancestors-buraimoh.jpg": [
+      "images/artworks/faces-of-the-ancestors-buraimoh.jpg"
+    ],
+    "Volume › rust-only-mark.png": [
+      "images/brand/rust-only-mark.png"
+    ],
+    "Volume › vo__plate": [
+      "images/objects/ancestral-vase-tall.jpg",
+      "images/objects/ancestral-plate.jpg"
+    ],
+    "Volume › volume-hero-hung.jpg": [
+      "images/rooms/volume-hero.jpg"
+    ],
+    "Volume › work": [
+      "images/artworks/feast-at-canaan-onobrakpeya.jpg",
+      "images/artworks/the-drummers-godspower.jpg",
+      "images/artworks/beautiful-faces-marshal.jpg",
+      "images/artworks/the-gathering-2-ogundele.jpg",
+      "images/artworks/faces-of-the-ancestors-buraimoh.jpg",
+      "images/artworks/the-group-onuoha.jpg",
+      "images/artworks/vogue-and-style-i-godspower.jpg",
+      "images/artworks/the-procession-onuoha.jpg",
+      "images/artworks/the-duo-buraimoh.jpg",
+      "images/artworks/guardian-of-sacred-circle-ogundele.jpg",
+      "images/artworks/where-spirit-meets-buraimoh.jpg",
+      "images/artworks/marquee-tile-04.jpg",
+      "images/artworks/palmwine-woman-onobrakpeya.jpg",
+      "images/artworks/volume-mosaic-01.jpg",
+      "images/artworks/volume-mosaic-02.jpg",
+      "images/artworks/volume-mosaic-03.jpg"
+    ],
+    "Volumes › Rectangle 23": [
+      "images/objects/ancestral-plate.jpg",
+      "images/objects/ancestral-box.jpg"
+    ],
+    "Volumes › Rectangle 24": [
+      "images/objects/ancestral-vase-tall.jpg",
+      "images/objects/ancestral-vase-round.jpg"
+    ],
+    "Volumes › volume-hero-hung": [
+      "images/rooms/volume-hero.jpg"
+    ],
+    "Volumes › win": [
+      "images/artworks/faces-of-the-ancestors-buraimoh.jpg"
+    ],
+    "Volumes › work": [
+      "images/artworks/feast-at-canaan-onobrakpeya.jpg",
+      "images/artworks/the-drummers-godspower.jpg",
+      "images/artworks/beautiful-faces-marshal.jpg",
+      "images/artworks/the-gathering-2-ogundele.jpg",
+      "images/artworks/faces-of-the-ancestors-buraimoh.jpg",
+      "images/artworks/the-group-onuoha.jpg",
+      "images/artworks/vogue-and-style-i-godspower.jpg",
+      "images/artworks/the-procession-onuoha.jpg",
+      "images/artworks/the-duo-buraimoh.jpg",
+      "images/artworks/guardian-of-sacred-circle-ogundele.jpg",
+      "images/artworks/where-spirit-meets-buraimoh.jpg",
+      "images/artworks/marquee-tile-04.jpg",
+      "images/artworks/palmwine-woman-onobrakpeya.jpg",
+      "images/artworks/volume-mosaic-01.jpg",
+      "images/artworks/volume-mosaic-02.jpg",
+      "images/artworks/volume-mosaic-03.jpg"
+    ],
+    "chapter 1 › plate": [
+      "images/artworks/faces-of-the-ancestors-buraimoh.jpg"
+    ]
+  }
+}

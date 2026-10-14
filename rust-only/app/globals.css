@@ -1,0 +1,228 @@
+@import "tailwindcss";
+
+/* ───────────── Semantic colour tokens (two modes) ───────────── */
+:root,
+[data-theme="dark"] {
+  --ground: #131010;
+  --surface: #1a1717;
+  --ink: #e6d7cb;
+  --ink-soft: #bdb0a4;
+  --ink-dim: #9a866a;
+  --ink-deep: #faf7f5;
+  --ink-mark: #fce7d0;
+  --accent: #c18f59;
+  --statement: #612411;
+  --rule: rgb(207 188 148 / 0.2);
+  --rule-soft: rgb(207 188 148 / 0.1);
+  --ground-sink: #0f0901;
+  color-scheme: dark;
+}
+[data-theme="light"] {
+  --ground: #feedd8;
+  --surface: #ebdfd5;
+  --ink: #491b0d;
+  --ink-soft: rgb(73 27 13 / 0.82);
+  --ink-dim: rgb(73 27 13 / 0.6);
+  --ink-deep: #301208;
+  --ink-mark: #fce7d0;
+  --accent: #612411;
+  --statement: #612411;
+  --rule: rgb(73 27 13 / 0.16);
+  --rule-soft: rgb(73 27 13 / 0.08);
+  --ground-sink: #0f0901;
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-ground: var(--ground);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-dim: var(--ink-dim);
+  --color-ink-deep: var(--ink-deep);
+  --color-ink-mark: var(--ink-mark);
+  --color-accent: var(--accent);
+  --color-statement: var(--statement);
+  --color-rule: var(--rule);
+  --color-rule-soft: var(--rule-soft);
+  --color-ground-sink: var(--ground-sink);
+
+  /* chapter panel primitives */
+  --color-ch-1: #240802; /* primary/700 */
+  --color-ch-2: #3c1e01; /* primary/600 */
+  --color-ch-3: #2b1301; /* tertiary/700 */
+  --color-ch-4: #1d140d; /* stone/7 */
+  /* TODO(figma): confirm manifesto paper tone */
+  --color-paper: #ece7dc;
+  --color-kraft: #8a5a35;
+  --color-gold: #c9a24b;
+
+  --font-display: var(--nf-display);
+  --font-body: var(--nf-inter);
+  --font-label: var(--nf-syne);
+  --font-caption: var(--nf-plex);
+  --font-signature: var(--nf-signature);
+
+  --ease-slow: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ───────────── Layout ───────────── */
+:root {
+  /* 20px on 390 → 72px on 1440 */
+  --gutter: clamp(20px, calc(20px + 52 * (100vw - 390px) / 1050), 72px);
+}
+.gutter {
+  padding-inline: var(--gutter);
+}
+
+/* ───────────── Type scale (mobile 390 → desktop 1440, fluid between) ───────────── */
+.t-display-lg, .t-display-md, .t-display-sm,
+.t-h1, .t-h2, .t-h3, .t-h4, .t-h5, .t-h6,
+.t-body-lg, .t-body-md, .t-body-sm,
+.t-label-xl, .t-label-lg, .t-label-md, .t-label-sm,
+.t-caption-lg, .t-caption-sm, .t-caption-xs {
+  font-size: clamp(
+    min(1px * var(--fs-m), 1px * var(--fs-d)),
+    calc(1px * var(--fs-m) + (var(--fs-d) - var(--fs-m)) * (100vw - 390px) / 1050),
+    max(1px * var(--fs-m), 1px * var(--fs-d))
+  );
+  font-weight: 400;
+}
+.t-display-lg { --fs-m: 36; --fs-d: 120; line-height: 1; letter-spacing: -0.04em; }
+.t-display-md { --fs-m: 44; --fs-d: 80;  line-height: 1; letter-spacing: -0.04em; }
+.t-display-sm { --fs-m: 52; --fs-d: 52;  line-height: 1; letter-spacing: -0.04em; }
+.t-h1 { --fs-m: 28; --fs-d: 72; line-height: 1.12; letter-spacing: -0.04em; }
+.t-h2 { --fs-m: 28; --fs-d: 60; line-height: 1.1;  letter-spacing: -0.04em; }
+.t-h3 { --fs-m: 22; --fs-d: 48; line-height: 1.1;  letter-spacing: -0.04em; }
+.t-h4 { --fs-m: 32; --fs-d: 44; line-height: 1.1;  letter-spacing: -0.04em; }
+.t-h5 { --fs-m: 22; --fs-d: 32; line-height: 1.2;  letter-spacing: -0.04em; }
+.t-h6 { --fs-m: 18; --fs-d: 24; line-height: 1.2;  letter-spacing: -0.02em; }
+.t-display-lg, .t-display-md, .t-display-sm, .t-h1, .t-h2, .t-h3, .t-h4, .t-h5, .t-h6 {
+  font-family: var(--nf-display), serif;
+  text-transform: uppercase;
+}
+.t-body-lg { --fs-m: 20; --fs-d: 20; line-height: 1.6;  letter-spacing: -0.03em; }
+.t-body-md { --fs-m: 16; --fs-d: 16; line-height: 1.6;  letter-spacing: -0.02em; }
+.t-body-sm { --fs-m: 14; --fs-d: 14; line-height: 1.7;  letter-spacing: -0.02em; }
+.t-body-lg, .t-body-md, .t-body-sm { font-family: var(--nf-inter), sans-serif; }
+
+.t-label-xl { --fs-m: 18; --fs-d: 24; line-height: 1.35; }
+.t-label-lg { --fs-m: 16; --fs-d: 16; line-height: 1.6; }
+.t-label-md { --fs-m: 14; --fs-d: 14; line-height: 1.6; }
+.t-label-sm { --fs-m: 12; --fs-d: 12; line-height: 1.6; }
+.t-label-xl, .t-label-lg, .t-label-md, .t-label-sm { font-family: var(--nf-syne), monospace; }
+
+.t-caption-lg { --fs-m: 16; --fs-d: 14; line-height: 1.7; }
+.t-caption-sm { --fs-m: 12; --fs-d: 12; line-height: 1.6; }
+.t-caption-xs { --fs-m: 10; --fs-d: 10; line-height: 1.6; }
+.t-caption-lg, .t-caption-sm, .t-caption-xs { font-family: var(--nf-plex), monospace; }
+
+.caps { text-transform: uppercase; letter-spacing: 0.16em; }
+
+/* ───────────── Base ───────────── */
+html { background: var(--ground-sink); }
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--nf-inter), sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+img { display: block; }
+::selection { background: var(--statement); color: var(--ink-mark); }
+:focus-visible { outline: 1px solid var(--accent); outline-offset: 4px; }
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: clip; }
+
+/* Underlined editorial link */
+.link-u {
+  text-decoration: underline;
+  text-underline-offset: 0.45em;
+  text-decoration-thickness: 1px;
+  transition: opacity 0.6s var(--ease-slow);
+}
+.link-u:hover { opacity: 0.65; }
+
+/* ───────────── Motion: initial states (only when JS + motion allowed) ───────────── */
+html.motion-ok [data-reveal="up"],
+html.motion-ok [data-reveal="lines"] { opacity: 0; }
+html.motion-ok [data-reveal="image"] { clip-path: inset(0 0 100% 0); }
+
+/* Marquee */
+@keyframes marquee { to { transform: translateX(-50%); } }
+.marquee-track { animation: marquee 80s linear infinite; width: max-content; }
+.marquee:hover .marquee-track { animation-play-state: paused; }
+.marquee-tile img { filter: grayscale(1) brightness(0.55); transition: filter 0.9s var(--ease-slow); }
+.marquee-tile:hover img, .marquee-tile:focus-visible img { filter: none; }
+
+/* Chapter stack: sticky panels slide over each other */
+.chapter-panel { position: sticky; top: 0; }
+
+/* Native dialogs */
+dialog.ro-dialog { border: 0; padding: 0; max-width: none; max-height: none; background: transparent; color: inherit; }
+dialog.ro-dialog::backdrop { background: rgb(15 9 1 / 0.8); backdrop-filter: blur(2px); }
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee { overflow-x: auto; }
+  .marquee-track { animation: none; }
+  .chapter-panel { position: relative; }
+  html { scroll-behavior: auto; }
+}
+
+/* Hero scroll cue */
+@keyframes cue { 0% { transform: scaleY(0); transform-origin: top; } 50% { transform: scaleY(1); transform-origin: top; } 51% { transform-origin: bottom; } 100% { transform: scaleY(0); transform-origin: bottom; } }
+.scroll-cue-line { animation: cue 2.6s var(--ease-slow) infinite; }
+@media (prefers-reduced-motion: reduce) { .scroll-cue-line { animation: none; } }
+
+/* ───────────── Loader (state A is pure CSS; JS animates from it) ───────────── */
+.load {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--ground-sink);
+  --wh: 38.4px; /* word box height */
+  --sw: 30.75vw; /* side inset of the small window: (100 − 38.5)/2 */
+}
+html.loader-on .load { display: block; }
+@media (min-width: 768px) {
+  .load { --wh: 126.72px; --sw: 38.5vw; } /* (100 − 23)/2 */
+}
+.load__window { position: absolute; inset: 0; clip-path: inset(50% var(--sw) 50% var(--sw)); }
+.load__word {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  white-space: nowrap;
+  font-family: var(--nf-display), serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: var(--wh);
+  letter-spacing: -0.04em;
+  color: rgb(246 239 228 / 0.1);
+}
+@media (min-width: 768px) { .load__word { font-size: 120px; } }
+.load__word--top { top: calc(50% - var(--wh)); }
+.load__word--bot { top: 50%; }
+.load__meter { position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: var(--ink); background: rgb(230 215 203 / 0.1); }
+.load__fill { height: 100%; width: 0; background: var(--accent); }
+.load__pct {
+  position: absolute;
+  left: 0;
+  top: calc(100% - 32px);
+  font-family: var(--nf-syne), monospace;
+  font-size: 12px;
+  line-height: 1.6;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  white-space: nowrap;
+}
+html.loader-on { overflow: hidden; }
+/* nav fades in once the loader hands off to the hero */
+.nav-fade { transition: opacity 0.5s var(--ease-slow); }
+html.loader-on .nav-fade { opacity: 0; }
