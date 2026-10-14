@@ -1,12 +1,16 @@
 "use client";
 import Link from "next/link";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
+import { usePathname } from "next/navigation";
 import { Logo } from "./Logo";
 import { nav } from "@/content/site";
 import { lockScroll, unlockScroll } from "@/lib/lenis";
 
 export function Nav() {
   const menu = useRef<HTMLDialogElement>(null);
+  const pathname = usePathname();
+  // safety net: any route change closes the menu
+  useEffect(() => { menu.current?.close(); }, [pathname]);
   const open = () => { menu.current?.showModal(); lockScroll(); };
   const close = () => { menu.current?.close(); };
 

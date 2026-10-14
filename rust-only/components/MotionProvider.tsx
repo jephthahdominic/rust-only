@@ -95,6 +95,9 @@ export function MotionProvider({ children }: { children: ReactNode }) {
       if (url.origin !== location.origin || (url.pathname === location.pathname && url.search === location.search)) return;
       e.preventDefault();
       e.stopPropagation();
+      // this handler swallows the click, so the mobile menu's own onClick never runs: close it here
+      // so the fade-through (and the new page's entrance) is actually visible
+      document.querySelectorAll("dialog[open]").forEach((d) => (d as HTMLDialogElement).close());
       gsap.to(overlay.current, {
         opacity: 1, duration: 0.4, ease: EASE.out, pointerEvents: "auto",
         onComplete: () => router.push(url.pathname + url.search + url.hash),
