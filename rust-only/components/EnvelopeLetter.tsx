@@ -9,7 +9,7 @@ const paper = "bg-ground text-ink"; // inside a data-theme="light" wrapper → c
 function LetterBody({ full }: { full: boolean }) {
   return (
     <div className="flex flex-col gap-6 px-8 pb-16 pt-14 md:px-12">
-      <h2 className="t-label-lg caps text-left font-bold">{letter.title}</h2>
+      <h2 className="t-label-lg caps text-left font-semibold">{letter.title}</h2>
       {(full ? letter.paragraphs : letter.paragraphs.slice(0, 1)).map((p) => (
         <p key={p} className="t-caption-lg">{p}</p>
       ))}
