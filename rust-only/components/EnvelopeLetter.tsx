@@ -9,14 +9,14 @@ const paper = "bg-ground text-ink"; // inside a data-theme="light" wrapper → c
 function LetterBody({ full }: { full: boolean }) {
   return (
     <div className="flex flex-col gap-6 px-8 pb-16 pt-14 md:px-12">
-      <h2 className="t-label-xl caps text-left">{letter.title}</h2>
+      <h2 className="t-label-md caps text-left">{letter.title}</h2>
       {(full ? letter.paragraphs : letter.paragraphs.slice(0, 1)).map((p) => (
         <p key={p} className="t-caption-lg">{p}</p>
       ))}
       {full && (
         <>
           <p className="t-caption-lg">{letter.closing}</p>
-          <p className="font-signature text-[32px] leading-none text-statement md:text-[40px]">{letter.signoff}</p>
+          <p className="font-signature text-[28px] leading-none text-statement md:text-[32px]">{letter.signoff}</p>
         </>
       )}
     </div>
